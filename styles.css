@@ -14,10 +14,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-img {
-    width: 100px;
-}
-
 .hero {
     background-image: url("./images/munich_skyline.png");
     background-size: cover;
@@ -58,6 +54,11 @@ img {
     filter: brightness(1.1);
 }
 
+.guide-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
 
 .guide {
     background-color: #D4A373;
@@ -75,5 +76,9 @@ img {
     align-items: center;
     gap: 20px;
     padding: 20px 0;
+}
 
+h3 {
+    padding: 0;
+    margin: 10px 0;
 }
